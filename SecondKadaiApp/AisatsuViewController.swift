@@ -13,7 +13,7 @@ class AisatsuViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        greetingLabel.text = "こんにちは\(nameData)さん！"
+        greetingLabel.text = "こんにちは、\(nameData)さん"
     }
     
     

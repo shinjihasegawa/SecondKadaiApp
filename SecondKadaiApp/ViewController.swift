@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var nameTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +20,8 @@ class ViewController: UIViewController {
             AisatsuView.nameData = nameTextField.text!
         }
     }
+    
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
-        }
+    }
 }
 
